@@ -20,6 +20,34 @@ The aim of this project is to build a movie recommendation system by filtering e
   - Movies with 8+ IMDB rating are retained
   - Movies with Hindi and English languages are retained
   - Movies pertaining to India, USA and UK are retained
+
+## Usage
+1. Create a Virtual Environment preferably with Anaconda
+```bash
+conda create -n redbot
+```
+
+2. Activate the virtual environment
+```bash
+conda activate redbot
+```
+
+2. Install the Requirements file
+```bash
+pip install -r requirements.txt
+```
+
+3. Change directory to the cloned directory
+
+4. Run `download_weights.py` to download weights and move them to the appropriate location
+```bash
+python download_weights.py
+```
+
+5. Run the `app.py` file using the following command
+```bash
+python app.py
+```
  
  ## Team Members
  - [Debarshi Chanda](https://github.com/DebarshiChanda)
